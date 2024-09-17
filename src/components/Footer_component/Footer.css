@@ -1,0 +1,42 @@
+.footer{
+    color: white;
+    padding-bottom: 20px;
+    color: rgb(135, 135, 135);
+}
+.footer-head-text{
+    margin-left: 12.5%;
+}
+.link-text{
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+select{
+    margin-top: 20px;
+    margin-left: 12.5%;
+    height: 29px;
+    width: 100px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px 20px black inset;   
+}
+option{
+    color: black;
+}
+.footer-last-text{
+    margin-left: 12.5%;
+    font-size: 13px;
+    padding-bottom:40px ;
+}
+strong{
+    text-decoration: underline;
+    font-weight: lighter;
+}

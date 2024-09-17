@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.offer-card-container{
+    font-family: "Rubik", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.offer-card-text{
+    margin-left: 140px;
+}
+
+.offer-card-holder{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.offer-card{
+    width: 15%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background: linear-gradient(-45deg,rgb(133, 66, 77), blue);
+    box-shadow: 50px -50px 10000px black inset;
+}
+.offer-card h3{
+    margin-top: 20px;
+}
+.offer-card p{
+    color: grey;
+}

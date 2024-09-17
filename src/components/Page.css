@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.Page-div{
+    background-color: black;
+    color: white;
+}
+.pagesub-ctr{
+    background: url('./netflix_banner.jpg');
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 5px 5px 9999px black inset;
+    color: white;
+}
+
+.pagesub-ctr center{
+    margin-top: 15%;
+}

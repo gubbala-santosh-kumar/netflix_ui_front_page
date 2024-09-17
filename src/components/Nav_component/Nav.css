@@ -1,0 +1,35 @@
+header{
+    padding-top:6px ;
+    display: flex;
+    justify-content: space-around;
+    gap: 28%;
+}
+img{
+    height: 44px;
+}
+.head-inputs{
+    margin-top: -20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.head-inputs select{
+    height: 29px;
+    width: 100px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 1px 1px 20px black inset;
+}
+.head-inputs button{
+    margin-top: 20px;
+    background-color: #e50914; /* Netflix Red */
+    color: white;
+    padding: 7px 15px;
+    border: 0.1px solid #e50914;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 90px;
+}

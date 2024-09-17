@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card-ctr{
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-content: center;
+    scroll-behavior: smooth;
+    padding-bottom: 50px;
+}
+
+.card-ctr .card img{
+    height: 230px;
+    width: 170px;
+    border-radius: 10px;
+}
+.card {
+    position: relative;
+    min-width: 150px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.sticker {
+    position: absolute;
+    top: 22px;  /* Position from the top */
+    right: 2px; /* Position from the right */
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.card{
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.08);
+}
+
+.rank{
+    margin-left: -20px;
+    margin-top: -115px;
+    font-size: 95px;
+    font-weight: 800;
+    color: black;
+    -webkit-text-stroke: 1px white; 
+}

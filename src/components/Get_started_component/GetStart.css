@@ -1,0 +1,30 @@
+.GST-container {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
+.GST-container input[type="email"] {
+    width:95%;
+    font-size: 15px;
+    height: 40px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 0.1px solid white;
+    box-shadow:10px 10px 90px black inset ;
+    background-color: transparent;
+    color: white;
+}
+
+.GST-container button {
+    width: 15%;
+    padding: 15px 40px;
+    background-color: #e50914;
+    border: 0.1px solid #e50914;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+
